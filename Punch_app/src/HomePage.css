@@ -1,0 +1,305 @@
+@import url('./assets/fonts/switzer/css/switzer.css');
+
+*{
+  font-family: 'Switzer-Medium',sans-serif;
+}
+
+#root {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  overflow-x:hidden;
+}
+
+/* The scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+  height: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 11px;
+  background: #f1f1f1; /* Grey background color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 11px;
+  background: #888; /* Grey color for the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker grey color on hover */
+}
+
+.navbar {
+  border: 1px solid #525AA0;
+  background-color: #525AA0;
+  font-family: 'Switzer', 'sans-serif';
+  font-size: 12px;
+  border-radius: 7px;
+  padding: 7px;
+  position: relative;
+  overflow: visible; /* Ensure the overflow is visible for the absolute positioned menu */
+}
+
+.navbar span {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin: 1%;
+}
+
+.navbar span p{
+  color:  #FFFFFF;
+  font-weight: 1000;
+  font-size: large;
+  margin: 2%;
+}
+
+.navbar span img{
+  margin-top: 2.5px;
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.navbar .PiList {
+  color: white;
+  font-size: x-large;
+  margin: 1%;
+  margin-top: 5px;
+  margin-right: -68.5vw;
+  cursor: pointer;
+  z-index: 1; 
+  position: relative;
+}
+
+.navbar .PiList:hover{
+  color: rgba(99, 99, 187, 0.863);
+}
+
+.navbar div {
+  display: none;
+}
+
+.navbar_menu {
+  border: 1px solid #525AA0;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+.navbar_menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+
+.navbar_menu a:hover {
+  cursor: pointer;
+  color: rgb(49, 14, 145);
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+
+.navbar_menu button {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 11px;
+  font-weight: 500;
+  color:#202229;
+  padding: 6px;
+  text-decoration: none;
+  margin: 0.5rem 0;
+  border: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar_menu button:hover {
+  cursor: pointer;
+  background-color: rgb(63, 27, 160);
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+
+.navbar_menu.opened{
+  display: flex;
+  width: 25%;
+  height: 65%;
+  overflow: scroll;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #525aa0bb;
+  border-radius: 0 0 7px 7px;
+  z-index: 2; 
+}
+
+.navbar_menu.closed{
+  display: none;
+}
+
+.slanted-div {
+  width: 110vw;
+  margin: 0rem -1rem;
+  transform: rotate(357deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section1_divider1{
+  background-color: #36197a;
+  height: 8.5px;
+  margin-top: 15%;
+  background: linear-gradient(to right, rgba(54, 25, 122, 0), #36197a 45%, rgba(54, 25, 122, 0));  
+}
+
+#section1_divider2{
+  background-color: #36197a;
+  height: 8px;
+  margin-top: 1.5%;
+  background: linear-gradient(to right, rgba(54, 25, 122, 0), #36197a 40%, rgba(54, 25, 122, 0));  
+}
+
+#section1_divider3{
+  background-color: #36197a;
+  height: 7px;
+  margin-top: 1.5%;
+  background: linear-gradient(to right, rgba(54, 25, 122, 0), #36197a 30%, rgba(54, 25, 122, 0));  
+}
+
+#section1_divider4{
+  background-color: #36197a;
+  height: 5px;
+  margin-top: 1.5%;
+  background: linear-gradient(to right, rgba(54, 25, 122, 0), #36197a 20%, rgba(54, 25, 122, 0));  
+}
+
+#section1_divider5{
+  background-color: #36197a;
+  height: 3px;
+  margin-top: 1.5%;
+  background: linear-gradient(to right, rgba(54, 25, 122, 0), #36197a 10%, rgba(54, 25, 122, 0));  
+}
+
+#section3_container{
+  background-color: #202229;
+  width: 100%;
+}
+
+#section3_containerImage{
+  margin: 0rem 75%;
+  max-height: 7vh;
+}
+
+
+footer {
+  background-color: linear-gradient(#202229, #1e2029);
+  border: 1px solid #7e7e7e70;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border-bottom: none;
+  position: absolute;
+  margin-top: -3%;
+}
+
+footer p{
+  rotate: 360deg;
+  font-size: 0.6em;
+  text-align: center;
+  margin: 0 auto;
+  padding: 6%;
+}
+
+@media only screen and (max-width: 600px){
+
+.navbar_menu span{
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
+@media only screen and (min-width: 1000px){
+ .navbar .PiList {
+    display: none; /* Hide PiList */
+  }
+  
+  .navbar_menu {
+    display: flex !important; /* Ensure the navbar menu is displayed */
+    width: 75%; /* Adjust width as needed */
+    height: 40px;
+    background-color: #525AA0; /* Make the background consistent with the navbar */
+    flex-direction: row; /* Align items horizontally */
+    justify-content:space-evenly; /* Evenly space out menu items */
+    top: auto; /* Remove top positioning */
+    right: 0; /* Remove right positioning */
+    padding:0.3rem 1rem;
+  }
+
+  .navbar_menu span{
+    position: absolute;
+    right: 0;
+    margin:0rem 30rem;
+  }
+
+  .navbar_menu span button{
+    margin: -0.3rem 1rem;
+  }
+
+  .navbar_menu span button:hover {
+    margin: -0.3rem 1rem;
+  }
+
+  .navbar span {
+    margin: 0rem 1rem;
+  }
+
+  .navbar span p {
+    font-family: 'Switzer-Extrabold';
+    font-size: xx-large;
+  }
+
+  .navbar span img {
+    margin: 0;
+    width: 45px;
+    height: 45px;
+  }
+
+  #section1_divider2{
+  height: 11px;
+  }
+
+  #section1_divider2{
+    margin-top: 1%;
+  }
+
+  #section1_divider3{
+    margin-top: 1%;
+  }
+
+  #section1_divider4{
+    margin-top: 1%;
+  }
+
+  #section1_divider5{
+    margin-top: 1%;
+  }
+
+#section3_containerImage{
+  margin: 0rem 70%;
+  max-height: 25vh;
+}
+
+}
+

@@ -1,0 +1,139 @@
+
+#section1 h1{
+  margin-top: 15%;
+  font-weight: 700;
+}
+
+#section1 h1 > img{
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  margin-left: -2%;
+  margin-bottom: -2.7%;
+}
+
+#section1 > p{
+  font-size: 1em;
+  line-height: 1.4;
+  font-weight: 400;
+  opacity:0.5;
+}
+
+#section1 .textarea{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#section1 .textarea input{
+  border-radius: 9px;
+  padding: 1.5%;
+}
+
+#section1 .textarea button{
+  background-color: #FFBE2E;
+  border: 1px solid #FFBE2E;
+  margin: 1%;
+  width: 40px;
+  border-radius: 9px;
+  height: 30px;
+}
+
+#section1 .textarea button:hover{
+  cursor: pointer;
+  background-color: rgb(65, 65, 214);
+}
+
+#section1 section{
+  border: 1px solid #F8F8F8;
+  background-color: #F8F8F8;
+  margin-top: 5%;
+  border-radius: 11px;
+}
+
+#section1 section #headers{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#section1 section p{
+  margin: 2px;
+  margin-top: 5%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #D2D2D2;
+  background-color: #D2D2D2;
+}
+
+#section1 section #IT{
+  border: 1px solid #C7F4C2;
+  background-color: #C7F4C2;
+  margin-right: -2.15%;
+  z-index: 2;
+}
+
+#section1 section ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+#section1 section ul li {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 1000px){
+  #section1 h1{
+      font-size: 3.8rem;
+      margin-top: 6%;
+      font-weight: 700;
+      font-family: 'Switzer-Extrabold';
+    }
+    
+    #section1 h1 > img{
+      width: 90px;
+      height: 90px;
+      margin-left: -0.7%;
+      margin-right: -0.7%;
+      margin-bottom: -1.7%;
+      border-radius: 100%;
+    }
+    
+    #section1 .textarea{
+      margin-top: 1.5%;
+    }
+  
+    #section1 .textarea input{
+      margin-top: 1%;
+      padding: 0.4%;
+      width: 25%;
+      height: 30px;
+      border: 1px solid rgba(0, 0, 0, 0.459);
+    }
+    
+    #section1 .textarea button{
+      margin: 0.8rem -2rem;
+      border: 1px solid rgba(0, 0, 0, 0.459);
+      border-left: none;
+      height: 43px;
+      width: 40px;
+      align-items: center;
+    }  
+    #section1 section #headers{
+    margin-top: -2%;
+    }
+  
+    #section1 section #IT{
+      margin-right: -0.7%;
+    }
+  
+    #section1 section ul {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+  
+}
