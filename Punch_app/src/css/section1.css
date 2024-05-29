@@ -5,11 +5,12 @@
 }
 
 #section1 h1 > img{
-  width: 45px;
-  height: 45px;
+  width: 55px;
+  height: 55px;
   object-fit: contain;
   margin-left: -2%;
   margin-bottom: -2.7%;
+  margin-right: -2.5%;
 }
 
 #section1 > p{
