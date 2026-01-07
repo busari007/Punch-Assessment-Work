@@ -1,22 +1,17 @@
-Here’s a **professional README** for your **Punch-Assessment-Work** project — a static site demonstrating your CSS, React, and Tailwind skills, complete with the **live site link** and polished description:
-
----
-
 # Punch Assessment Work – Frontend CSS & React Practice
 
 A **static portfolio project** built to demonstrate modern frontend skills using **ReactJS** and **Tailwind CSS**.
 This site was created as part of a **frontend assessment** to showcase responsive layout design, utility-first styling, and structured component implementation.
 
 🌐 **Live Site:** [https://william-busari-punch-assessment-work.vercel.app/](https://william-busari-punch-assessment-work.vercel.app/)
-📦 **Source Code:** [https://github.com/busari007/Punch-Assessment-Work.git](https://github.com/busari007/Punch-Assessment-Work.git)
 
 ---
 
 ## 🚀 Project Overview
 
-This project is a **UI-focused static web page** crafted to showcase core frontend capabilities — especially CSS layout mastery using Tailwind CSS and React component architecture. It serves as a standalone demonstration of your ability to translate design mockups into polished web pages with clean, responsive, and modern styling.
+This project is a **UI-focused static web page** crafted to showcase core frontend capabilities; especially CSS layout mastery using Tailwind CSS and React component architecture. It serves as a standalone demonstration of my ability to translate design mockups into polished web pages with clean, responsive, and modern styling.
 
-The site was deployed using **Vercel** and highlights your skills in frontend tooling and static site development.
+The site was deployed using **Vercel** and highlights my skills in frontend tooling and static site development.
 
 ---
 
@@ -24,7 +19,6 @@ The site was deployed using **Vercel** and highlights your skills in frontend to
 
 * **ReactJS-Powered UI** — Structured with reusable components and clean JSX
 * **Tailwind CSS Styling** — Utility-first styling for rapid design and responsiveness
-* **Responsive Layout** — Adapts smoothly from desktop to mobile screens
 * **Clean, Professional Design** — Focus on visual clarity and user experience
 * **Assessment-Ready** — Designed specifically to evaluate practical frontend skills
 
@@ -43,13 +37,13 @@ You can see the result live here:
 | **Deployment**      | Vercel                                        |
 | **Version Control** | Git & GitHub                                  |
 
-This project showcases your ability to implement modern UI features without backend complexity — perfect for frontend portfolio reviews.
+This project showcases my ability to implement modern UI features without backend complexity; perfect for frontend portfolio reviews.
 
 ---
 
 ## 📁 Project Structure
 
-A typical layout for the repository looks like:
+The layout for the repository looks like:
 
 ```
 Punch-Assessment-Work/
@@ -94,19 +88,18 @@ Then open the shown **localhost** URL in your browser to preview.
 
 This assessment project emphasizes:
 
-* **Responsive design fundamentals**
 * **Utility-first styling using Tailwind CSS**
 * **React component structuring**
 * **Semantic HTML with accessible UI flow**
 
-These are strong indicators of frontend proficiency and align with common industry skills evaluated in CSS/React assessments.([wecreateproblems.com][1])
+These are strong indicators of frontend proficiency and align with common industry skills evaluated in CSS/React assessments.
 
 ---
 
 ## 📌 Notes
 
 * This is **not a full application** — designed intentionally as a **UI/CSS assessment piece**
-* The focus is on **layout, responsiveness, and visual polish**
+* The focus is on **layout, and visual polish**. It is **not** completely responsive on mobile screens
 * Perfect addition to a frontend portfolio or resume
 
 ---
@@ -114,4 +107,5 @@ These are strong indicators of frontend proficiency and align with common indust
 ## 👨‍💻 Author/Developer
 
 **William Busari**
-Software Developer & Frontend Engineer
+Software Developer & Fullstack Engineer
+
